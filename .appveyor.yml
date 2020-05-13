@@ -15,4 +15,3 @@ build_script:
 
 on_finish:
   - ps: Stop-Process -Id $App.Id  # оставливаем SUT
-    
